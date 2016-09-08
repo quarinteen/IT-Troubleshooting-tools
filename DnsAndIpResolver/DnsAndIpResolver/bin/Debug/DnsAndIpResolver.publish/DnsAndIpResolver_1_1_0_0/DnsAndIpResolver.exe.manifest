@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="DnsAndIpResolver.exe" version="1.1.0.0" publicKeyToken="5263a7558c174722" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Artdesigner-Emoticons-2-Smile.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DnsAndIpResolver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DnsAndIpResolver.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DnsAndIpResolver.exe" size="180224">
+      <assemblyIdentity name="DnsAndIpResolver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CswB0LmJFP1/9b/jBjflQzqzDjo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Artdesigner-Emoticons-2-Smile.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1lR3MZLPDhZnm5ac6AhGkSWjOtI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LASCRD\ScOliver" issuerKeyHash="003e2726a29cbf10306ac36919b4996c4a9549e1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f1oi00wmyTieBLiaDz7FLZE6VmA=</DigestValue></Reference></SignedInfo><SignatureValue>P1jNQYuLlikZzY73j+xC47JmGK3sABcMSb7RJQME2LSvrj/XhKnO/agbTwHcmRSY0wtBqR/R5jtWKnNhhiiYzujfdxEc4jpuGfzQAR2N/t/Tgfs4lhR0nNmWPNR5jEiV6ct2YQGJKAWNSIVbFGxDql5ha7PN9Jm3aykG6HdauSk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4Rb0m9ImKOaKHPjZW+b1GjYqyJ7Cv0wq4KbUbGx40RSbbbOD4bq5PsucJmvhbiU6zF8jNNMN1SLbozNna7RaAkOT9BDR4bOWBl2eb+L06f06f0hw3r0Pl1o0JjHev2hvV2Ij0ykYVOtsouHN/qn8uj6DKgB+OnIUz0ciZXHMQqU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="60563a912dc53e0f9ab8049e38c9264cd3225a7f" Description="" Url=""><as:assemblyIdentity name="DnsAndIpResolver.exe" version="1.1.0.0" publicKeyToken="5263a7558c174722" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LASCRD\ScOliver</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>P/9fhjH0jGAIfkfIXFKtvWsbXfE=</DigestValue></Reference></SignedInfo><SignatureValue>AYrYzaQ2N9tsrj5qPEFuQakTDzHa+liTMstLWI8bYtXOHtVwc52Mai3LxVPxFM9T0hGkim3VHJBuwuzsekCvENG7YPTWVtzXQ/gUqxMAQhuB5QxVPAuBebuvTAPc5TCoH7wUiRyQXiEuBSwDIlHasxVULYPLA+T5fa23ci0JbAY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4Rb0m9ImKOaKHPjZW+b1GjYqyJ7Cv0wq4KbUbGx40RSbbbOD4bq5PsucJmvhbiU6zF8jNNMN1SLbozNna7RaAkOT9BDR4bOWBl2eb+L06f06f0hw3r0Pl1o0JjHev2hvV2Ij0ykYVOtsouHN/qn8uj6DKgB+OnIUz0ciZXHMQqU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQIao1unWp7p1JLJzqn32qZjANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ATABBAFMAQwBSAEQAXABTAGMATwBsAGkAdgBlAHIwHhcNMTYwNTEwMjMwMTE1WhcNMTcwNTExMDUwMTE1WjApMScwJQYDVQQDHh4ATABBAFMAQwBSAEQAXABTAGMATwBsAGkAdgBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOEW9JvSJijmihz42Vvm9Ro2Ksiewr9MKuCm1GxseNEUm22zg+G6uT7LnCZr4W4lOsxfIzTTDdUi26MzZ2u0WgJDk/QQ0eGzlgZdnm/i9On9On9IcN69D5daNCYx3r9ob1diI9MpGFTrbKLhzf6p/Lo+gyoAfjpyFM9HImVxzEKlAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAlqx9X6X/l1ZKo3UMdkP1Rrsku867bBSoR0AlVpmhpyY2Te7WAAvPv8H7QGGbMlWj/Lt1VfUrlK03tJyjKbq2985KjvCdHduDvAb0vqBUxnc2PSECdhQXVT1pgNNEijQ6zFd95B9Aotm6LrRKBUSQ4+aG6B0XK9Fwq1B8Une5VwM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
